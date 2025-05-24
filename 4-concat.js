@@ -1,6 +1,6 @@
-let part1 = 'c';
-let link = 'is';
-let part2 = 'underfined';
+const argument1 = process.argv[2];
+const argument2 = process.argv[3];
 
-let finalWord = part1 + ' ' + link + ' ' + part2;
-console.log(finalWord);
+//print arguments in  'argument1 is argument2' format
+//If argument is underfined it will be printed as 'undefined'
+console.log(`${argument1} is ${argument2}`);
